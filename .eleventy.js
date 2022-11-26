@@ -8,13 +8,13 @@ module.exports = function(eleventyConfig) {
 
    module.exports = function(eleventyConfig) {
     // ...necháme, co už v konfiguraci je, a přidáme:
-    return {
-      // možné formáty šablon
-      templateFormats: ["njk", "html", "md"],
-      // jako šablonovací jazyk zvolíme Nunjucks`
-      markdownTemplateEngine: "njk",
-      htmlTemplateEngine: "njk",
-      dataTemplateEngine: "njk",
-    }
-  };
+      return {
+        // možné formáty šablon
+        templateFormats: ["njk", "html", "md"],
+        // jako šablonovací jazyk zvolíme Nunjucks`
+        markdownTemplateEngine: "njk",
+        htmlTemplateEngine: "njk",
+        dataTemplateEngine: "njk",
+      }
+    };
   
